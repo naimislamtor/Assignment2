@@ -119,6 +119,35 @@
     width: 100%;
     
 }
+/* card section end */
+/* flower-lover-section start */
+
+.lover-image img{
+    height: 540px;
+    width: auto;
+}
+.plant-lover-section{
+    margin-top: 200px;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.lover-header{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.lover-text ul{
+    padding: 20px;
+    
+}
+.lover-text ul li{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+
 
 
 
@@ -153,5 +182,13 @@
         grid-template-columns: repeat(2, 1fr);
         padding: 0px 20px;
     }
-
+    .plant-lover-section{
+        flex-direction: column;
+        margin-top: 40px;
+        padding: 20px;
+    }
+    .lover-image img{
+        width: 100%;
+        height: auto;
+    }
 }

@@ -1,0 +1,36 @@
+.flex{
+    display: flex;
+}
+
+.header-item{
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 150px;
+}
+
+.nav-item ul{
+    list-style-type: none;
+
+}
+
+.nav-item ul li{
+    margin-right: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .hide{
+        display: none;
+    }
+    .header-item{
+        margin: 20px 30px;
+    }
+}

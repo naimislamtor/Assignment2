@@ -80,11 +80,11 @@
     flex-direction: column;
     justify-content: center;
 }
-.plant-title{
+.plant-title, .deal-title{
     font-size: 50px;
     font-weight: bold;
 }
-.plant-description{
+.plant-description, .deal-description{
     max-width: 888px;
     font-size: 22px;
     color: rgba(0, 0, 0, 0.5);
@@ -122,7 +122,7 @@
 /* card section end */
 /* flower-lover-section start */
 
-.lover-image img{
+.flower-store{
     height: 540px;
     width: auto;
 }
@@ -146,7 +146,96 @@
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
 }
+.lover-image{
+    position: relative;
+    
+}
+.trusted-badge{
+    position: absolute;
+    top: -80px;
+    right: -80px;
+    width: 200px;
+    height: auto;
+}
 
+
+/* deal section */
+.lates-deal-section{
+    margin: 125px auto;
+}
+.card-1{
+    background-image: url(assets/deal-bloom.png);
+    height: 200px;
+    width: 360px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+  
+}
+.card-2{
+    background-image: url(assets/deal-ana.png);
+    height: 200px;
+    width: 360px;
+    border-radius: 10px;
+    width: 360px;
+    border-radius: 10px;
+    color: white;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.color{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.single-card{
+    background-image: url(assets/deal-zabo.png);
+    margin-left: 20px;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+}
+.card-right{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.discount-style{
+    font-size: 40px;
+    font-weight: bold;
+}
+.inside-card-right{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+
+.card-item{
+    margin-top: 120px;
+}
+.inside-card{
+    color: white;
+}
 
 
 
@@ -190,5 +279,35 @@
     .lover-image img{
         width: 100%;
         height: auto;
+    }
+    .card-1, .card-2{
+        margin: 10px auto;
+        margin-top: 20px;
+    }
+    .lates-deal-section{
+        margin-top: 30px;
+    }
+    .card-item{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .deal-info{
+        width: 100wh;
+        padding: 5px;
+    }
+    .deal-description{
+        width: 100%;
+    }
+    .single-card{
+        height: 200px;
+        width: 360px;
+        margin: 10px auto;
+    }
+    .discount-style{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .inside-card-right{
+        font-size: 16px;
     }
 }

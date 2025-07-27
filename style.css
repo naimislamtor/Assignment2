@@ -90,6 +90,35 @@
     color: rgba(0, 0, 0, 0.5);
     margin: 0 auto;
 }
+.plant-container{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr)); 
+    gap: 20px;
+    margin: 50px auto;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.plant-name{
+    font-size: 22px;
+    font-weight: 500px;
+    color: #111111;
+}
+.plant-rate{
+    font-size: 22px;
+    font-weight: bold;
+    color: #111111;
+}
+
+.btn-primary{
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    padding: 19px;
+    width: 100%;
+    
+}
 
 
 
@@ -119,6 +148,10 @@
     .banner-image img{
         max-width: 100%;
         height: auto;
+    }
+    .plant-container{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px 20px;
     }
 
 }

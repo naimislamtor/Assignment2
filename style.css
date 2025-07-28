@@ -119,6 +119,10 @@
     width: 100%;
     
 }
+
+.btn-primary:hover{
+    cursor: pointer;
+}
 /* card section end */
 /* flower-lover-section start */
 
@@ -236,6 +240,50 @@
 .inside-card{
     color: white;
 }
+/* Challange part complete */
+/* join section start */
+.join-section{
+    width: 100wh;
+    height: 530px;
+    background-image: url(assets/news-letter-bg.png);
+    position: relative;
+}
+.join-item{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.join-header{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+.input-box{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.input-text{
+    display: flex;
+    margin-left: 36px;
+    padding: 20px 20px ;
+    width: 100%;
+    max-width: 550px;
+    
+}
+.subscribe{
+    width: 185px;
+    margin-right: 36px;
+}
+
+
+
 
 
 
@@ -285,7 +333,7 @@
         margin-top: 20px;
     }
     .lates-deal-section{
-        margin-top: 30px;
+        margin: 30px auto;
     }
     .card-item{
         flex-direction: column;
@@ -309,5 +357,12 @@
     }
     .inside-card-right{
         font-size: 16px;
+    }
+    .join-header{
+        font-size: 20px;
+    }
+    .join-section{
+        height: 275px;
+        background-size: cover ;
     }
 }
